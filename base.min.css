@@ -1,0 +1,60 @@
+img, legend { border: 0px none; }
+body, sub, sup { position: relative; }
+footer, header { position: absolute; width: 100%; }
+header > div.navbar-default { background-color: transparent; border-color: transparent; }
+.carousel, svg { max-height: 100%; }
+html { font-family: sans-serif; }
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+a { background-color: transparent; }
+a:active, a:hover { outline: 0px none; }
+h1 { font-size: 2em; margin: 0.67em 0px; }
+.contacts, .nav > .listItem { display: inline-block; vertical-align: middle; }
+button, input, optgroup, select, textarea { font: inherit; margin: 0px; }
+body, html { line-height: 1.613; }
+.nav, body { font-family: Roboto-Condensed; }
+button { overflow: visible; }
+button, select { text-transform: none; }
+button, html input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+input { line-height: normal; }
+html { height: 100%; font-size: 10px; backface-visibility: hidden; }
+body { margin: 0px; padding-bottom: 110px; padding-top: 130px; background-color: rgb(255, 255, 255); height: auto; min-height: 100%; overflow-y: visible; font-size: 1.4rem; }
+.die-container, header { padding: 15px 0px; clear: both; }
+body.homepage { height: 100%; overflow-y: hidden; background-color: rgb(92, 187, 231); }
+.limiter { height: 100%; width: 100%; min-width: 320px; margin: 0px auto; }
+@font-face {
+  font-family: "Roboto-Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: url("roboto-condensed.eot") format("embedded-opentype"), url("roboto-condensed.woff2") format("woff2"), url("roboto-condensed.woff") format("woff"), url("roboto-condensed.ttf") format("truetype"), url("roboto-condensed.svg") format("svg");
+}
+header { background: rgba(0, 0, 0, 0) url("header-bg.jpg") no-repeat scroll 0% 0% / cover ; top: 0px; }
+footer { clear: both; background: rgba(0, 0, 0, 0) url("footer-bg.jpg") no-repeat scroll 0% 0% / cover ; height: 110px; font-size: 1.4em; color: rgb(255, 255, 255); text-align: center; line-height: 110px; bottom: 0px; }
+.contacts { line-height: 1.613; }
+.nav { text-align: justify; line-height: 0; font-size: 1px; text-align-last: justify; }
+.nav::after { width: 100%; height: 0px; visibility: hidden; overflow: hidden; content: ""; display: inline-block; }
+.nav > .listItem { text-align: center; border: 3px solid rgb(255, 255, 255); border-radius: 10px; color: rgb(255, 255, 255); min-width: 150px; line-height: normal; font-size: 14px; text-align-last: auto; }
+.nav > .listItem > .listItemLink { font-size: 16px; color: rgb(255, 255, 255); }
+.nav > .listItem > .listItemLink:active, .nav > .listItem > .listItemLink:focus, .nav > .listItem > .listItemLink:hover { background-color: rgb(255, 255, 255); color: rgb(92, 187, 231); }
+.nav > .listItem.logo { border: medium none; background-color: transparent; }
+.nav > .listItem.logo .listItemLink { font-size: 0px; padding: 0px; }
+.nav > .listItem.logo .listItemLink::after { content: ""; display: block; width: 100%; background: rgba(0, 0, 0, 0) url("logo.png") no-repeat scroll center center / contain ; height: 100px; }
+.nav > .listItem.logo .listItemLink:hover { background: transparent none repeat scroll 0% 0%; }
+.nav > .listItem .dropdown-menu { top: 105%; left: 1%; margin: 0px; text-align: center; text-align-last: auto; width: 98%; border-radius: 0px 0px 5px 5px; border-width: 0px 2px 2px; border-style: none solid solid; border-color: currentcolor rgb(217, 217, 217) rgb(217, 217, 217); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; box-shadow: none; padding: 0px; min-width: auto; }
+.nav > .listItem .dropdown-menu .listItemLink { color: rgb(78, 172, 223); padding: 5px 0px; font-size: 14px; }
+.carousel-inner > .item > img { width: 100%; }
+.carousel-container { margin-top: 50px; position: relative; height: 100%; }
+.carousel { position: relative; }
+@media (max-width: 841px) {
+  .carousel-container { z-index: -1; }
+  .contacts, .nav > .listItem { display: block; }
+  .nav > .listItem.logo { display: none; }
+}
+@media (min-width: 992px) {
+  .limiter { max-width: 950px; margin-left: auto; margin-right: auto; }
+  .limiter::after { content: " "; display: block; clear: both; }
+}
+@media (min-width: 1200px) {
+  .limiter { max-width: 1100px; margin-left: auto; margin-right: auto; }
+  .limiter::after { content: " "; display: block; clear: both; }
+}
